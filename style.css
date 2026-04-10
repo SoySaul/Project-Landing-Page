@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: darkslategray;
+}
+
+nav{
+    background-color: whitesmoke;
+}
+
+main{
+    background-color: tomato;
+
+}
+
+article{
+    background-color: midnightblue;
+}
+
+section{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: cornflowerblue;
+}
