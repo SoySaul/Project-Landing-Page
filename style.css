@@ -55,7 +55,7 @@ h1{
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
-    }
+}
 
 article{
     display: flex;
@@ -167,6 +167,24 @@ main > article > cite{
     font-weight: bold;
     align-self: flex-end;
     margin-top: -10;
+}
+
+main > aside{
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 70%;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 10%;
+}
+
+main > aside > button{
+    border-color: #f9faf8;
 }
 
 footer{
