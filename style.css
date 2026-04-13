@@ -93,7 +93,7 @@ button{
 }
 
 .image{
-    background-color: #868e9b transparent;
+    background-color: #9aa3b1 transparent;
     flex-basis: 70%;
     height: 70%;
     color: #e5e7eb;
@@ -188,6 +188,12 @@ main > aside > button{
 }
 
 footer{
-    background-color: cornflowerblue;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
