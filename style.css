@@ -108,7 +108,7 @@ main{
 }
 
 section{
-    background-color: aquamarine;
+    background-color: #f9faf8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,6 +124,16 @@ section > div{
     text-align: center;
 }
 
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+section > div p{
+    color: #525966;
+}
+
 /* section > div > div{
     display: flex;
     flex-wrap: wrap;
@@ -134,9 +144,12 @@ section > div{
 
 .illustration{
     height: 100px;
-    flex-basis: 150px;
+    flex-basis: 100px;
     flex-grow: 1;
-    background-color: blueviolet;
+    background-color: #e5e7eb transparent;
+    border-color: #4075c0;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 footer{
