@@ -76,6 +76,11 @@ article{
     align-items: flex-start;
 }
 
+.article.article.div p{
+    color: #e5e7eb;
+    margin-top: -30px;
+}
+
 button{
     font-size: 16px;
     font-weight: 900;
@@ -88,7 +93,13 @@ button{
 }
 
 .image{
-    background-color: antiquewhite;
+    background-color: #868e9b; transparent;
+    flex-basis: 70%;
+    height: 70%;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
